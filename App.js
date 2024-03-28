@@ -5,10 +5,9 @@ const options = { method: 'GET', headers: { accept: 'application/json' } };
 function App() {
   const [search, setSearch] = useState("");
   const [weather, setWeather] = useState([])
-
+// Fetching API
   const searchPressed = () => {
     fetch(`https://api.tomorrow.io/v4/weather/realtime?location=${search}&apikey=44f2Sq9l7amHslgsKuWiyJxtyY4j69ny`, options)
-
       .then(response => response.json())
       .then(response => setWeather(response))
       .catch(err => console.error(err));
