@@ -21,6 +21,4 @@ HOW to run this application ->
 
 2> To run this app enter this command in terminal: npm run start 
 
-Important! Note: when you will enter the city name click once on the search bar before clicking the search button
-
 Contact Info: +91-7023677031
