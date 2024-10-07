@@ -20,5 +20,3 @@ HOW to run this application ->
 1> Make sure you have followed the instructions and have all the dependencies in your folder ( node_modules, public, src, package.json )
 
 2> To run this app enter this command in terminal: npm run start 
-
-Contact Info: +91-7023677031
